@@ -1,0 +1,27 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+}
+
+h1, h3, h4{
+  color: #188854;
+}
+
+.navbar,
+footer.navbar {
+  width: 100%;
+  background-color: #188854;
+  color: white;
+  padding: 1rem;
+}
+
+footer.navbar .container,
+.navbar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer.navbar .navbar-text {
+  text-align: center;
+}
